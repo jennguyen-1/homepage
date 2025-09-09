@@ -1,0 +1,133 @@
+* {
+    color:palevioletred;
+    position:relative;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto; 
+}
+
+img {
+    max-width:100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-family:'Petit Formal Script'
+}
+
+.wordbox1 {
+    text-align:center;
+}
+
+.pink {
+    width:250px;
+    position:absolute;
+    left: 80px;
+    top: 170px;
+}
+
+.brush {
+    color:#ff03ae;
+    left:120px;
+}
+
+
+.wordbox1 {
+    width:300px;
+}
+
+.stars {
+    text-align:center;
+}
+
+.rednailshover {
+    position: relative;
+    right:-600px;
+    top: -200px;
+    width:300px;
+}
+
+.hover_img {
+    position: absolute;
+    display:none;
+    width: 400px;
+    left: -150px;
+    top: -220px;
+    z-index:-100;
+}
+
+.rednailshover:hover > .hover_img{
+    display: block;
+}
+
+.favorite {
+    text-shadow:0 0 10px white;
+    text-decoration: underline;
+    font-family:'Petit Formal Script'
+}
+
+.favorite:hover {
+    text-shadow:0 0 10px white;
+    text-decoration: underline;
+    color: rgb(170, 4, 4)
+}
+
+.basic {
+    width: 300px;
+    left:500px;
+    top:50px;
+    text-align: center;
+}
+
+.streaks {
+    z-index:-100;
+}
+
+.steps {
+    text-align:left;
+    width: 300px;
+    right:-200px;
+    top:100px;
+}
+
+.plate {
+    width:500px;
+    position: relative;
+    right:-500px;
+    top: -250px;
+}
+
+video {
+    border:dotted;
+}
+
+.video {
+    position:relative;
+    top: -300px;
+}
+
+.always {
+    position: relative;
+    width:400px;
+    top:-500px;
+    right:-500px;
+    font-size:200%;
+    text-align:center;
+}
+
+.clover {
+    position: relative;
+    top:-500px;
+}
+
+.insta {
+    position:relative;
+    top:-400px;
+    left:500px;
+}
