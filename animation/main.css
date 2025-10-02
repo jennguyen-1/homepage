@@ -1,0 +1,27 @@
+* {
+    box-sizing:border-box;
+}
+
+img {
+    max-width:100%;
+}
+
+.square {
+    background-color:burlywood;
+    width:200px;
+    height:200px;
+    animation-name:test;
+    animation-duration:4s;
+    animation-delay:2s;
+    animation-iteration-count: 1;
+    animation-direction:reverse;
+}
+
+@keyframes test {
+    0% {
+        background-color:red;
+    }
+    100% {
+        background-color: yellow;
+    }
+}

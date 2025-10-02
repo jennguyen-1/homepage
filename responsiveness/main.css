@@ -1,0 +1,48 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background:#ececd7;
+}
+
+img {
+    max-width:100%;
+}
+
+p {
+    background:lightblue;
+    padding:10px;
+    max-width:700px;
+}
+
+/* max-width = desktop-first
+    min-width = mobile-first */
+
+/* tablet media query */
+@media screen and (min-width: 600px){
+    body {
+        background:#f2c59d;
+    }
+
+    p {
+        background: #adad68;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    body{
+        background:#b4b4db;
+    }
+}
+
+/* phone media query */
+@media screen and (min-width: 1000px) {
+    body {
+        background: #cde4b5;
+    }
+
+    p {
+        background:#e4bd9c;
+    }
+}
