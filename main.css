@@ -1,0 +1,91 @@
+* {
+    box-sizing:border-box;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+img {
+    max-width:100%;
+}
+
+marquee {
+    overflow:hidden;
+    width: 100vw;
+}
+
+.h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: -1px;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(205, 83, 144);
+  /* text-shadow: rgba(230,92,138,0.9) 0px 0px 17px; */
+}
+
+/* selected link */
+a:active {
+  color: rgb(80, 109, 255);
+}
+
+
+
+.container {
+    /* background: lightgoldenrodyellow; */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+hr {
+width: 70%;
+}
+
+.wrap {
+    /* background: pink; */
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.in1 {
+    /* background: lightskyblue; */
+    height: auto;
+    width: 30%;
+    min-width: 240px;
+}
+
+.in2 {
+    /* background: lightsalmon; */
+    height: auto;
+    width: 70%;
+    padding-top: 4px;
+    min-width: 250px;
+}
+
+.h2 {
+    margin-top: -20px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: -.5px;
+}
+
+.in2 p {
+    font-family: arial;
+    font-size: 15px;
+    letter-spacing: -1px;
+}

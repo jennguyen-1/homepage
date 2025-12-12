@@ -1,0 +1,169 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width:100%;
+}
+
+.m {
+    /* font-family: 'Monsieur La Doulaise'; */
+
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.container {
+    /* background: pink; */
+    height: 100vh;
+    width: 100vw;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.one .in1 {
+    background: black;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 80px;
+    left: 200px;
+}
+
+.two {
+    position: absolute;
+    width: 300px;
+    left: 50px;
+    top: 20px;
+}
+
+.two .m {
+    font-size: 50px;
+}
+
+.three {
+    position: absolute;
+    left: 140px;
+    top: 80px;
+}
+
+.four {
+    position: absolute;
+    font-size: 40px;
+    top: 280px;
+    left: 400px;
+
+    opacity: 0;
+
+    animation: appear 10s forwards 2s;
+    /* animation-delay: 2s; */
+}
+
+.twowrap {
+    animation: away 1s forwards 10s;
+}
+
+.five {
+    background: black;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    animation: appear1 2s forwards 12s;
+}
+
+.six {
+    position: absolute;
+    font-size: 80px;
+    color: white;
+    left: 300px;
+
+    opacity: 0;
+    animation: appear1 1s forwards 14s;
+}
+
+.seven {
+    position: absolute;
+    font-size: 80px;
+    color: white;
+    left: 200px;
+    top: 600px;
+
+    opacity: 0;
+    animation: appear1 1s forwards 20s;
+}
+
+.seven1 {
+    background: black;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    
+    opacity: 0;
+    animation: appear1 2s forwards 25s;
+    
+}
+
+.eight {
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    left: 100px;
+    top: 300px;
+
+    opacity: 0;
+    animation: appear1 2s forwards 30s;
+}
+
+.nine {
+    background: black;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    
+    opacity: 0;
+    animation: appear1 2s forwards 35s;
+}
+
+.ten {
+    background: rgb(255, 255, 255);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    
+    opacity: 0;
+    animation: appear1 2s forwards 45s;
+}
+
+.eleven {
+    color: black;
+    position: absolute;
+    font-size: 30px;
+    top: 200px;
+    left: 200px;
+
+     opacity: 0;
+    animation: appear1 1s forwards 47s;
+
+}
+
+
+@keyframes appear { 
+	0% {opacity:0}
+    10% {opacity:1}
+    90% {opacity:1}
+    100% {opacity:0}
+}
+
+@keyframes appear1 {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@keyframes away {
+    from {opacity: 1}
+    to {opacity: 0}
+}
